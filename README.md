@@ -1,6 +1,6 @@
 # Matériel pour la formation CIP201
 
-[Site Web](https://calculquebec.github.io/cq-formation-cip201/)
+[Site Web](https://calculquebec.github.io/cip201/)
 
 ## État
 

@@ -112,7 +112,7 @@ algorithms, such as how we intuitively sort playing cards, have an
 thus much faster as the amount of data increases.
 
 #. Go to the exercise directory with
-   ``cd ~/cq-formation-cip201-main/lab/sort``.
+   ``cd ~/cip201-main/lab/sort``.
 #. Compile the ``bubble`` and ``quick`` programs with the ``make`` command.
 #. Edit ``test.sh`` to add ``time -p`` before the ``./bubble`` and ``./quick``
    commands.

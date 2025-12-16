@@ -119,7 +119,7 @@ sont d'ordre :math:`O(n \log(n))`, et donc beaucoup plus rapides lorsque la
 quantité de données augmente.
 
 #. Allez dans le répertoire de l’exercice avec
-   ``cd ~/cq-formation-cip201-main/lab/sort``.
+   ``cd ~/cip201-main/lab/sort``.
 #. Compilez les programmes ``bubble`` et ``quick`` avec la commande ``make``.
 #. Éditez le fichier ``test.sh`` de sorte à ajouter ``time -p`` au début des
    commmandes ``./bubble`` et ``./quick``.

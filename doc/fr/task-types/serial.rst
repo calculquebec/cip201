@@ -175,8 +175,8 @@ Exercice
 
 #. Si vous n’êtes pas déjà sur le nœud de connexion ``login1``, connectez-vous
    avec ``ssh login1``.
-#. Allez dans le répertoire de l’exercice avec
-   ``cd ~/cq-formation-cip201-main/lab/fibonacci-serial``.
+#. Allez dans le répertoire de l’exercice avec ``cd
+   ~/cip201-main/lab/fibonacci-serial``.
 #. Compilez le programme ``fibo`` avec la commande ``make``.
 #. Démarrez une tâche interactive avec ``salloc --cpus-per-task=2
    --time=00:10:00``.

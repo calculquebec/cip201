@@ -32,7 +32,7 @@ Démonstration
 .. code-block:: console
     :emphasize-lines: 4
 
-    [alice@narval1 ~]$ cd ~/cq-formation-cip201/lab/pi-multi-threaded
+    [alice@narval1 ~]$ cd ~/cip201-main/lab/pi-multi-threaded
     [alice@narval1 ~]$ make
     make: Nothing to be done for 'default'.
     [alice@narval1 pi-multi-threaded]$ salloc --nodes=1 --exclusive --mem=0 --time=3:00:00

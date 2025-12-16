@@ -165,8 +165,7 @@ Exercise
 
 #. If you are not already on the login node ``login1``, log in with
    ``ssh login1``.
-#. Go to the exercise directory with
-   ``cd ~/cq-formation-cip201-main/lab/fibonacci-serial``.
+#. Go to the exercise directory with ``cd ~/cip201-main/lab/fibonacci-serial``.
 #. Compile the ``fibo`` program with the ``make`` command.
 #. Start an interactive job with ``salloc --cpus-per-task=2
    --time=00:10:00``.

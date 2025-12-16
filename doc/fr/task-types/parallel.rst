@@ -153,7 +153,7 @@ Exercice
 **Instructions**
 
 #. Allez dans le répertoire de l’exercice avec ``cd
-   ~/cq-formation-cip201-main/lab/pi-multi-threaded``.
+   ~/cip201-main/lab/pi-multi-threaded``.
 #. Compilez le programme ``pi`` avec la commande ``make``.
 #. Démarrez une tâche interactive avec ``salloc [...] --time=00:10:00``.
    Remplacez ``[...]`` par les options de parallélisme nécessaires pour une
@@ -332,8 +332,7 @@ Exercice
 
 **Instructions**
 
-#. Allez dans le répertoire de l’exercice avec ``cd
-   ~/cq-formation-cip201-main/lab/pi-mpi``.
+#. Allez dans le répertoire de l’exercice avec ``cd ~/cip201-main/lab/pi-mpi``.
 #. Compilez le programme ``pi`` avec la commande ``make``.
 #. Démarrez une tâche interactive avec ``salloc [...] --time=00:10:00``.
    Remplacez ``[...]`` par les options de parallélisme nécessaires pour une

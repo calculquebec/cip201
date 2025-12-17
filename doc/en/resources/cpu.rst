@@ -169,8 +169,7 @@ Exercise
 
 **Instructions**
 
-#. Go to the exercise directory with ``cd
-   ~/cq-formation-cip201-main/lab/gmx-scaling``.
+#. Go to the exercise directory with ``cd ~/cip201-main/lab/gmx-scaling``.
 #. Prepare the input files with ``bash gmx-prepare.sh``.
 #. Edit the job script with ``nano gmx-job.sh``. Ask for 1, 2, 4, or 8 CPU
    cores with the ``--cpus-per-task`` option.

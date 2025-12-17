@@ -110,7 +110,7 @@ Exercise
 
 **Objective:** cause an out-of-memory situation in a job.
 
-#. Go to the exercise directory with ``cd ~/cq-formation-cip201-main/lab/sort``.
+#. Go to the exercise directory with ``cd ~/cip201-main/lab/sort``.
 #. If need be, (re)compile the ``bubble`` and ``quick`` programs with the
    ``make`` command.
 #. Edit ``test.sh`` to request ``--mem=400M`` (only 400 mebibytes).

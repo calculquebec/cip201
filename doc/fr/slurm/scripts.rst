@@ -26,8 +26,7 @@ Exercice en groupe
 ------------------
 
 #. Connectez-vous à la grappe virtuelle avec ``ssh login1``.
-#. Allez dans le répertoire de l’exercice avec
-   ``cd ~/cq-formation-cip201-main/lab/script``.
+#. Allez dans le répertoire de l’exercice avec ``cd ~/cip201-main/lab/script``.
 #. Dans le fichier ``simple.sh``, éditez l'entête d'options
    ``#SBATCH`` selon les instructions qui s'y trouvent :
 

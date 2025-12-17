@@ -120,8 +120,7 @@ Exercice
 **Objectif :** dans cet exercice, nous allons provoquer une surutilisation
 de mémoire :
 
-#. Allez dans le répertoire de l’exercice avec
-   ``cd ~/cq-formation-cip201-main/lab/sort``.
+#. Allez dans le répertoire de l’exercice avec ``cd ~/cip201-main/lab/sort``.
 #. Au besoin, recompilez les programmes ``bubble`` et ``quick`` avec la
    commande ``make``.
 #. Éditez le fichier ``test.sh`` de sorte à configurer ``--mem=400M``

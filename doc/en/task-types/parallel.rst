@@ -144,8 +144,7 @@ Exercise
 
 **Instructions**
 
-#. Go to the exercise directory with ``cd
-   ~/cq-formation-cip201-main/lab/pi-multi-threaded``.
+#. Go to the exercise directory with ``cd ~/cip201-main/lab/pi-multi-threaded``.
 #. Compile the ``pi`` program with the ``make`` command.
 #. Start an interactive job with ``salloc [...] --time=00:10:00``. Replace
    ``[...]`` by the parallelism options necessary for a multi-threaded job and
@@ -315,8 +314,7 @@ Exercise
 
 **Instructions**
 
-#. Go to the exercise directory with ``cd
-   ~/cq-formation-cip201-main/lab/pi-mpi``.
+#. Go to the exercise directory with ``cd ~/cip201-main/lab/pi-mpi``.
 #. Compile the ``pi`` program with the ``make`` command.
 #. Start an interactive job with ``salloc [...] --time=00:10:00``.
    Replace ``[...]`` by the parallelism options necessary for an MPI program

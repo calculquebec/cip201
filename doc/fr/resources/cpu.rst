@@ -183,7 +183,7 @@ Exercice
 **Instructions**
 
 #. Allez dans le répertoire de l’exercice avec ``cd
-   ~/cq-formation-cip201-main/lab/gmx-scaling``.
+   ~/cip201-main/lab/gmx-scaling``.
 #. Préparer les fichiers d’entrée de la tâche avec ``bash gmx-prepare.sh``.
 #. Éditez le script de tâche avec ``nano gmx-job.sh``. Demandez 1, 2, 4 ou 8
    cœurs CPU avec l’option ``--cpus-per-task``.

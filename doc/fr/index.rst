@@ -21,8 +21,7 @@ La section suivante présente les deux **types de tâches de calcul**. Les
 discussion plus approfondie, incluant la différence entre les programmes
 parallèles multi-fils et MPI. Le parallélisme de données est mentionné
 brièvement et fait l’objet d’un atelier subséquent, `Gestion de grands lots de
-tâches <https://calculquebec.github.io/cq-formation-cip202/fr/index.html>`__
-(CIP202).
+tâches <https://calculquebec.github.io/cip202/fr/index.html>`__ (CIP202).
 
 **Estimer les ressources requises** pour une tâche de calcul peut être un défi !
 Cette section discute du :doc:`temps <resources/time>` de calcul, de la
@@ -49,10 +48,9 @@ utilisateurs <monitoring/user-portal>` qui facilite le suivi des tâches.
     pour les exercices sont dans votre répertoire personnel sur la plateforme.
 
     Si vous suivez cet atelier par vous-même, vous pouvez télécharger `les
-    fichiers nécessaires
-    <https://github.com/calculquebec/cq-formation-cip201>`__ et réaliser les
-    exercices sur n’importe quelle grappe de Calcul Québec ou de l’Alliance de
-    recherche numérique du Canada. Le temps d’attente pour l’exécution des
+    fichiers nécessaires <https://github.com/calculquebec/cip201>`__ et réaliser
+    les exercices sur n’importe quelle grappe de Calcul Québec ou de l’Alliance
+    de recherche numérique du Canada. Le temps d’attente pour l’exécution des
     tâches sera toutefois plus long que sur la plateforme infonuagique.
 
 .. toctree::

@@ -179,7 +179,7 @@ Exercise
 
 #. While ``fibo`` runs, check its CPU usage in the task manager.
 
-   #. Show the task manager with ``top -u $USER -H``.
+   #. Show the task manager with ``top -u $USER``.
    #. Quit the manager with :kbd:`q`.
 
 #. Stop the ``fibo`` program with ``kill %1``.

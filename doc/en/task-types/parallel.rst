@@ -146,9 +146,9 @@ Exercise
 
 #. Go to the exercise directory with ``cd ~/cip201-main/lab/pi-multi-threaded``.
 #. Compile the ``pi`` program with the ``make`` command.
-#. Start an interactive job with ``salloc [...] --time=00:10:00``. Replace
-   ``[...]`` by the parallelism options necessary for a multi-threaded job and
-   ask for 2 CPU cores.
+#. Start an interactive job with ``salloc --time=00:10:00 ...``. Replace ``...``
+   by the parallelism options necessary for a multi-threaded job and ask for 2
+   CPU cores.
 #. Run the program in the background with ``./pi &``.
 #. While ``pi`` runs, check its CPU usage with ``top -u $USER`` and ``top -u
    $USER -H``.
@@ -316,9 +316,9 @@ Exercise
 
 #. Go to the exercise directory with ``cd ~/cip201-main/lab/pi-mpi``.
 #. Compile the ``pi`` program with the ``make`` command.
-#. Start an interactive job with ``salloc [...] --time=00:10:00``.
-   Replace ``[...]`` by the parallelism options necessary for an MPI program
-   and ask for 1 node and 2 CPU cores.
+#. Start an interactive job with ``salloc --time=00:10:00 ...``. Replace ``...``
+   by the parallelism options necessary for an MPI program and ask for 1 node
+   and 2 CPU cores.
 #. Run the program in the background with ``mpirun ./pi &``.
 #. While ``pi`` runs, check its CPU usage with ``top -u $USER`` and ``top -u
    $USER -H``.

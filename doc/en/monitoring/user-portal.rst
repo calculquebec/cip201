@@ -7,6 +7,7 @@ Some clusters offer a portal to monitor your current jobs and even your
 recently completed jobs. Here they are:
 
 - **Narval**: https://portail.narval.calculquebec.ca
+- **Nibi** : https://portal.nibi.sharcnet.ca
 - **Rorqual**: https://metrix.rorqual.calculquebec.ca
 - **Trillium and Trillium GPU**: https://my.scinet.utoronto.ca
 

@@ -44,7 +44,8 @@ Exercice en groupe
 
 **Objectif**
 
-- Savoir trouver la liste des nœuds d'une tâche en cours d'exécution.
+- Savoir trouver la liste des nœuds d'une tâche en cours d'exécution et s’y
+  connecter.
 
 **Instructions**
 
@@ -52,3 +53,4 @@ Exercice en groupe
 #. Voyez l’identifiant et la liste de nœuds dans la sortie de : ``squeue -t
    running -u $USER``.
 #. Essayez aussi : ``squeue -j <id> -o %.40N``.
+#. Connectez-vous à la tâche avec : ``srun --jobid=<id> --pty $SHELL``.

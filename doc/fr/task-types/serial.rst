@@ -193,7 +193,7 @@ Exercice
 #. Pendant que ``fibo`` s’exécute, observez sa consommation de CPU dans le
    gestionnaire de tâches.
 
-   #. Affichez le gestionnaire avec ``top -u $USER -H``.
+   #. Affichez le gestionnaire avec ``top -u $USER``.
    #. Quittez le gestionnaire avec :kbd:`q`.
 
 #. Interrompez le programme ``fibo`` avec ``kill %1``.

@@ -7,6 +7,7 @@ Certaines grappes de calcul offrent un portail permettant de monitorer vos
 tâches en cours et même vos tâches récemment terminées. Les voici :
 
 - **Narval** : https://portail.narval.calculquebec.ca
+- **Nibi** : https://portal.nibi.sharcnet.ca
 - **Rorqual** : https://metrix.rorqual.calculquebec.ca
 - **Trillium et Trillium GPU** : https://my.scinet.utoronto.ca
 

@@ -44,10 +44,12 @@ Group exercise
 
 **Objective**
 
-- Understand how to get a list of the compute nodes allocated to a running job.
+- Understand how to get a list of the compute nodes allocated to a running job
+  and connect to that job.
 
 **Instructions**
 
 #. Submit a short job: ``sbatch --wrap='sleep 120'``.
 #. Check the id and node list with ``squeue -t running -u $USER``.
 #. Also try:  ``squeue -j <id> -o %.40N``.
+#. Connect to the job with: ``srun --jobid=<id> --pty $SHELL``.

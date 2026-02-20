@@ -47,10 +47,10 @@ utilisateurs <monitoring/user-portal>` qui facilite le suivi des tâches.
     de Calcul Québec sur notre plateforme infonuagique. Les fichiers nécessaires
     pour les exercices sont dans votre répertoire personnel sur la plateforme.
 
-    Vous pouvez aussi suivre cet atelier par vous-même et réaliser les exercices
+    Vous pouvez aussi suivre cet atelier par vous-même et faire les exercices
     sur n’importe quelle grappe de Calcul Québec ou de l’Alliance de recherche
     numérique du Canada. Le temps d’attente pour l’exécution des tâches sera
-    toutefois plus long que sur la plateforme infonuagique.Téléchargez les
+    toutefois plus long que sur la plateforme infonuagique. Téléchargez les
     fichiers nécessaires avec la commande suivante ou `consultez-les en ligne
     <https://github.com/calculquebec/cip201>`__ :
 

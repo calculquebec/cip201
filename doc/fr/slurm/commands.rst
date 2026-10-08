@@ -13,17 +13,26 @@ et pour éviter le gaspillage de temps de calcul.
 
 #. Via un script de tâche :
 
-   .. code-block:: bash
+   .. code-block:: console
 
-      sbatch [<options>] script.sh
+      [alice@narval1 ~]$ sbatch [option]... script.sh
+      Submitted batch job 5023759
 
 #. Via une tâche interactive sur le nœud de calcul :
 
-   .. code-block:: bash
+   .. code-block:: console
 
-      salloc <options>
-      ./application arg1 arg2 ...
-      exit
+      [alice@narval1 ~]$ salloc [option]...
+      salloc: Pending job allocation 5023807
+      salloc: job 5023807 queued and waiting for resources
+      salloc: job 5023807 has been allocated resources
+      salloc: Granted job allocation 5023807
+      salloc: Waiting for resource configuration
+      salloc: Nodes nc20256 are ready for job
+      [alice@nc20256 ~]$ ./prog arg1 arg2...
+      ...
+      [alice@nc20256 ~]$ exit
+      salloc: Relinquishing job allocation 5024054
 
 .. warning::
 

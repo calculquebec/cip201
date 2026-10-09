@@ -15,13 +15,13 @@ follow these steps:
 #. Ensure you are connected to a cluster login node.
 #. Get the id of the job you are interested in with ``sq`` or ``squeue -t
    running -u $USER``.
-#. Connect to the job with ``srun --jobid=<id> --pty $SHELL``.
+#. Connect to the job with ``srun --jobid=<id> --overlap --pty $SHELL``.
 
 For multi-node jobs, you can connect to a specific node with ``srun --jobid=<id>
---nodelist=<node> --pty $SHELL``. The nodes allocated to a job are shown in the
-output of ``sq``. If the ``NODELIST`` field is too narrow to see the full list,
-use ``squeue -j <id> -o %.40N``, where 40 is the number of characters to use for
-the field width.
+--overlap --nodelist=<node> --pty $SHELL``. The nodes allocated to a job are
+shown in the output of ``sq``. If the ``NODELIST`` field is too narrow to see
+the full list, use ``squeue -j <id> -o %.40N``, where 40 is the number of
+characters to use for the field width.
 
 You can also use SSH to connect to a node allocated to one of your jobs. For
 instance: ``ssh compute-node1``.
@@ -52,4 +52,4 @@ Group exercise
 #. Submit a short job: ``sbatch --wrap='sleep 120'``.
 #. Check the id and node list with ``squeue -t running -u $USER``.
 #. Also try:  ``squeue -j <id> -o %.40N``.
-#. Connect to the job with: ``srun --jobid=<id> --pty $SHELL``.
+#. Connect to the job with: ``srun --jobid=<id> --overlap --pty $SHELL``.

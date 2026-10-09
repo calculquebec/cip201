@@ -32,7 +32,7 @@ et pour éviter le gaspillage de temps de calcul.
       [alice@nc20256 ~]$ ./prog arg1 arg2...
       ...
       [alice@nc20256 ~]$ exit
-      salloc: Relinquishing job allocation 5024054
+      salloc: Relinquishing job allocation 5023807
 
 .. warning::
 

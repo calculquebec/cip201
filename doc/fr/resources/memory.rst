@@ -10,9 +10,9 @@ Pour rappel, voici les deux principales options de l'ordonnanceur Slurm pour
 demander de la mémoire :
 
 - ``--mem=<quantité>``, quantité de mémoire
-  `par noeud de calcul <https://slurm.schedmd.com/sbatch.html#OPT_mem>`__.
+  `par nœud de calcul <https://slurm.schedmd.com/sbatch.html#OPT_mem>`__.
 - ``--mem-per-cpu=<quantité>``, quantité de mémoire
-  `par coeur CPU <https://slurm.schedmd.com/sbatch.html#OPT_mem-per-cpu>`__.
+  `par cœur CPU <https://slurm.schedmd.com/sbatch.html#OPT_mem-per-cpu>`__.
 
   - Par défaut : ``256M``
 
@@ -21,17 +21,17 @@ Pourquoi se fixer une limite de mémoire?
 
 - Dans les
   `grappes nationales <https://docs.alliancecan.ca/wiki/National_systems/fr#Liste_des_grappes_de_calcul>`__,
-  la grande majorité des noeuds de calcul contiennent un peu moins de **4G de
-  mémoire vive utilisable par coeur CPU**.
+  la grande majorité des nœuds de calcul contiennent un peu moins de **4G de
+  mémoire vive utilisable par cœur CPU**.
 
-  - Une poignée de noeuds ont entre 16G et 32G par coeur, ce qui en fait
+  - Une poignée de nœuds ont entre 16G et 32G par cœur, ce qui en fait
     une ressource très limitée et peut causer un plus long temps d'attente
     pour y accéder.
 
-- Pour protéger le noeud de calcul de votre programme dans le cas d'une
+- Pour protéger le nœud de calcul de votre programme dans le cas d'une
   surutilisation de mémoire.
 
-- Enfin, pour remplacer la valeur par défaut de 256M par coeur CPU.
+- Enfin, pour remplacer la valeur par défaut de 256M par cœur CPU.
 
 En somme, **il est nécessaire de spécifier une quantité de mémoire**, avec
 bien sûr une certaine marge de sécurité (par exemple, ajouter 20% sur la

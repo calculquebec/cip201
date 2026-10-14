@@ -35,7 +35,7 @@ Déterminer le temps de calcul à partir de votre ordinateur
 Si vous vous basez sur votre expérience avec le logiciel sur votre ordinateur
 personnel, il y a différents facteurs à considérer :
 
-#. La vitesse de votre **processeur** : les coeurs CPU de la grappe de calcul
+#. La vitesse de votre **processeur** : les cœurs CPU de la grappe de calcul
    ne sont pas nécessairement plus rapides que ceux de votre ordinateur.
 #. La vitesse de la **mémoire** de votre ordinateur.
 #. La vitesse du **stockage** pour la lecture et l'écriture des données.
@@ -102,7 +102,7 @@ Une fois le programme terminé, ``time`` affiche trois valeurs de temps en
 secondes :
 
 - ``real`` : temps réel, **c'est le temps à considérer**.
-- ``user`` : temps total de calcul effectif sur les coeurs CPU.
+- ``user`` : temps total de calcul effectif sur les cœurs CPU.
 - ``sys`` : temps passé dans les opérations système (accès à un fichier, par
   exemple)
 

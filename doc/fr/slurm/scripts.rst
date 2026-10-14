@@ -27,8 +27,8 @@ On y retrouve :
    `sbatch <https://slurm.schedmd.com/sbatch.html>`__.
 #. Le `chargement des modules <https://docs.alliancecan.ca/wiki/Utiliser_des_modules>`__
    requis.
-#. Les commandes qui seront exécutées automatiquement sur des processeurs
-   réservés pour la tâche.
+#. Les commandes qui seront exécutées automatiquement sur les cœurs CPU réservés
+   pour la tâche.
 
 Voir les exemples de la documentation de l'Alliance :
 

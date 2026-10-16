@@ -15,13 +15,14 @@ avez une tâche en cours**. Voici les étapes à suivre pour ce faire :
 #. S'assurer d'être connecté sur un nœud de connexion de la grappe de calcul.
 #. Obtenir l’identifiant de la tâche d’intérêt avec ``sq`` ou ``squeue -t
    running -u $USER``.
-#. Se connecter à la tâche avec ``srun --jobid=<id> --pty $SHELL``.
+#. Se connecter à la tâche avec ``srun --jobid=<id> --overlap --pty $SHELL``.
 
 Dans le cas d’une tâche multi-nœuds, vous pouvez vous connecter à un nœud
-spécifique avec ``srun --jobid=<id> --nodelist=<node> --pty $SHELL``. Les nœuds
-alloués à une tâche sont affichés dans la sortie de ``sq``. Si le champ
-``NODELIST`` est trop étroit pour voir la liste complète, utilisez ``squeue -j
-<id> -o %.40N``, où 40 est la largeur du champ en nombre de caractères.
+spécifique avec ``srun --jobid=<id> --overlap --nodelist=<node> --pty $SHELL``.
+Les nœuds alloués à une tâche sont affichés dans la sortie de ``sq``. Si le
+champ ``NODELIST`` est trop étroit pour voir la liste complète, utilisez
+``squeue -j <id> -o %.40N``, où 40 est la largeur du champ en nombre de
+caractères.
 
 Vous pouvez aussi vous connecter par SSH à un nœud alloué à une de vos tâches.
 Par exemple : ``ssh compute-node1``.
@@ -53,4 +54,5 @@ Exercice en groupe
 #. Voyez l’identifiant et la liste de nœuds dans la sortie de : ``squeue -t
    running -u $USER``.
 #. Essayez aussi : ``squeue -j <id> -o %.40N``.
-#. Connectez-vous à la tâche avec : ``srun --jobid=<id> --pty $SHELL``.
+#. Connectez-vous à la tâche avec : ``srun --jobid=<id> --overlap --pty
+   $SHELL``.

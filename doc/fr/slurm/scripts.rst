@@ -4,17 +4,31 @@ Scripts de tâches
 `English <../../en/slurm/scripts.html>`_
 
 Un script de tâche est communément un script Bash destiné à l'ordonnanceur
-Slurm. On y retrouve :
+Slurm. Par exemple :
 
-#. Le `shebang <https://fr.wikipedia.org/wiki/Shebang>`__ en toute première
-   ligne. Par exemple : ``#!/bin/bash``.
+.. code-block:: bash
+
+   #!/bin/bash
+
+   #SBATCH --job-name=my-job
+   #SBATCH --mem=1G
+   #SBATCH --time=4:00:00
+
+   module load StdEnv/2023 python/3.11.5
+
+   python my_script.py
+
+On y retrouve :
+
+#. Le `shebang <https://fr.wikipedia.org/wiki/Shebang>`__ (``#!``) en toute
+   première ligne.
 #. Les options ``#SBATCH`` en entête pour les besoins de la tâche. Ces
    options seront lues par la commande de soumission de tâche
    `sbatch <https://slurm.schedmd.com/sbatch.html>`__.
-#. `Chargement des modules <https://docs.alliancecan.ca/wiki/Utiliser_des_modules>`__
+#. Le `chargement des modules <https://docs.alliancecan.ca/wiki/Utiliser_des_modules>`__
    requis.
-#. Les commandes Bash qui seront exécutées automatiquement sur des processeurs
-   réservés pour la tâche.
+#. Les commandes qui seront exécutées automatiquement sur les cœurs CPU réservés
+   pour la tâche.
 
 Voir les exemples de la documentation de l'Alliance :
 

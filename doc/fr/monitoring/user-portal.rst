@@ -85,7 +85,7 @@ toutes les informations disponibles au sujet de la tâche :
 - L'historique de la tâche.
 - Une analyse complète des ressources utilisées (si mesurées) selon le temps :
 
-  - Utilisation moyenne des processeurs par nœud. Dans la figure ci-dessous,
+  - Utilisation moyenne des cœurs CPU par nœud. Dans la figure ci-dessous,
     chaque point de couleur correspond à l'un des 8 nœuds réservés pour la
     tâche.
 

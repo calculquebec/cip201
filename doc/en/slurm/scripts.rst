@@ -3,17 +3,31 @@ Job scripts
 
 `Français <../../fr/slurm/scripts.html>`_
 
-A job script is commonly a Bash script intended for the Slurm scheduler.
+A job script is commonly a Bash script intended for the Slurm scheduler. For
+example:
+
+.. code-block:: bash
+
+   #!/bin/bash
+
+   #SBATCH --job-name=my-job
+   #SBATCH --mem=1G
+   #SBATCH --time=4:00:00
+
+   module load StdEnv/2023 python/3.11.5
+
+   python my_script.py
+
 It includes:
 
-#. The `shebang <https://en.wikipedia.org/wiki/Shebang_(Unix)>`__ on the very
-   first line. For example: ``#!/bin/bash``.
+#. The `shebang <https://en.wikipedia.org/wiki/Shebang_(Unix)>`__ (``#!``) on
+   the very first line.
 #. The ``#SBATCH`` options for the job. These options will be read by the
    `sbatch <https://slurm.schedmd.com/sbatch.html>`__ job submission command.
 #. Loading required `modules
    <https://docs.alliancecan.ca/wiki/Utiliser_des_modules/en>`__.
-#. Bash commands that will be executed automatically on CPU cores reserved for
-   the job.
+#. Commands that will be executed automatically on CPU cores reserved for the
+   job.
 
 See examples from the Alliance documentation:
 

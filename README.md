@@ -10,7 +10,7 @@ formations CIP201 en ligne du 5 (français) et 19 (anglais) mars 2025.
 ## Installation locale et compilation
 
 ```Bash
-pip install sphinx==8.1.3 sphinx-intl sphinx-book-theme==1.1.3
+pip install sphinx==9.1.0 sphinx-intl sphinx-book-theme==1.2.0
 
 cd doc
 ./build.sh

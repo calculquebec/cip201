@@ -55,13 +55,13 @@ avec ``sacct``. Par exemple :
 .. code-block:: console
     :emphasize-lines: 1,4
 
-    [alice@narval3 ~]$ sacct -j 39732872 -o JobID%15,JobName,Elapsed,TotalCPU,NCPUs
-              JobID    JobName    Elapsed   TotalCPU      NCPUS 
-    --------------- ---------- ---------- ---------- ---------- 
-           39732872     gmx-md   00:06:07  51:04.301         12 
-     39732872.batch      batch   00:06:07  00:01.043         12 
-    39732872.extern     extern   00:06:07  00:00.001         12 
-         39732872.0        gmx   00:06:05  51:03.255         12
+    [alice@narval3 ~]$ sacct -j 39732872 -o JobID%15,JobName,NCPUS,Elapsed,TotalCPU
+              JobID    JobName      NCPUS    Elapsed   TotalCPU
+    --------------- ---------- ---------- ---------- ----------
+           39732872     gmx-md         12   00:06:07  51:04.301
+     39732872.batch      batch         12   00:06:07  00:01.043
+    39732872.extern     extern         12   00:06:07  00:00.001
+         39732872.0        gmx         12   00:06:05  51:03.255
 
 .. note::
 
@@ -94,7 +94,7 @@ Exercice
 #. Affichez la liste de vos tâches avec ``sacct -X``.
 #. Essayez la commande ``seff <jobid>`` pour l’une d'entre elles et vérifiez
    l’utilisation CPU.
-#. Essayez ``sacct -j <jobid> -o JobID,JobName,Elapsed,TotalCPU,NCPUs`` pour la
+#. Essayez ``sacct -j <jobid> -o JobID,JobName,NCPUS,Elapsed,TotalCPU`` pour la
    même tâche. Calculez l’utilisation CPU.
 
 Pourquoi optimiser le nombre de cœurs CPU ?
@@ -137,7 +137,7 @@ parallèle :
     S_n = \frac{t_\text{séquentiel}}{t_n}
 
 Par exemple, si un calcul requiert 10 minutes avec 1 cœur CPU et 6 minutes avec
-2, l’accélaration est de 1,67. C’est donc une mesure de « combien de fois plus
+2, l’accélération est de 1,67. C’est donc une mesure de « combien de fois plus
 rapide est le programme ».
 
 L’efficacité (*efficiency*, :math:`E`) est le ratio de l’accélération sur le

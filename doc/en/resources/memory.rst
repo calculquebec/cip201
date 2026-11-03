@@ -64,6 +64,8 @@ JobID,JobName,NTasks,AveRSS,MaxRSS``.
   resident set size.
 - ``MaxRSS``: peak memory usage of the process that used the most memory.
 
+.. figure:: ../../images/averss-vs-maxrss_en.svg
+
 For serial and multi-threaded jobs, ``AveRSS`` and ``MaxRSS`` are identical and
 correspond to the measured peak memory usage.
 

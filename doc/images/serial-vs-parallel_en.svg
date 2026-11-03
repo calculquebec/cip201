@@ -8,7 +8,7 @@
    stroke-miterlimit="10"
    id="svg151"
    sodipodi:docname="serial-vs-parallel_en.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    width="544.28064"
    height="343.48065"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -1105,9 +1105,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.4195288"
-     inkscape:cx="204.64537"
-     inkscape:cy="137.72176"
+     inkscape:zoom="1.484485"
+     inkscape:cx="246.55015"
+     inkscape:cy="172.7872"
      inkscape:window-width="1920"
      inkscape:window-height="1126"
      inkscape:window-x="0"
@@ -1118,10 +1118,6 @@
      style="fill:none;stroke:#000103;stroke-width:1.88976;stroke-dasharray:1.88976002,5.66928005;stroke-opacity:1;stroke-dashoffset:0"
      d="M 25.669657,28.515211 H 524.602 V 316.488"
      id="path2832" />
-  <path
-     style="fill:none;stroke:#1155cc;stroke-width:3.77952756;stroke-dasharray:3.77952766, 7.55905533;stroke-opacity:1;stroke-dashoffset:0;marker-end:url(#marker2619)"
-     d="M 25.669658,316.46264 144.05732,248.17217"
-     id="path2315" />
   <path
      fill="#000000"
      fill-opacity="0"
@@ -1381,11 +1377,6 @@
        x="396.45523"
        y="255.3223">Parallel</tspan></text>
   <path
-     style="fill:none;stroke:#7f6000;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
-     d="M 25.669657,316.488 524.602,28.515211"
-     id="path630"
-     sodipodi:nodetypes="cc" />
-  <path
      style="fill:none;stroke:#1155cc;stroke-width:3.77953;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2783)"
      d="m 146.26717,247.86481 h 17.64876 l 27.73222,-16.98967"
      id="path2755"
@@ -1401,7 +1392,7 @@
      id="path2755-5-5"
      sodipodi:nodetypes="cc" />
   <path
-     style="fill:none;stroke:#7f6000;stroke-width:3.77953;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2783-6-367-6)"
+     style="fill:none;stroke:#ffaa00;stroke-width:3.77953;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2783-6-367-6)"
      d="M 330.14861,223.45767 357.88083,206.468"
      id="path2755-5-5-9"
      sodipodi:nodetypes="cc" />
@@ -1452,4 +1443,13 @@
      style="fill:none;stroke:#000103;stroke-width:1.88976378;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#marker1844);marker-end:url(#marker2070)"
      d="M 25.669657,28.515211 V 316.488 H 524.64594"
      id="path897" />
+  <path
+     style="fill:none;stroke:#ffaa00;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
+     d="M 25.669657,316.488 524.602,28.515211"
+     id="path630"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#1155cc;stroke-width:3.77952756;stroke-dasharray:3.77952766, 7.55905533;stroke-opacity:1;stroke-dashoffset:0;marker-end:url(#marker2619)"
+     d="M 25.669658,316.46264 144.05732,248.17217"
+     id="path2315" />
 </svg>

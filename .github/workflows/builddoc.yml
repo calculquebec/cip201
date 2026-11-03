@@ -15,7 +15,7 @@ jobs:
         python-version: '3.13'
 
     - name: Installation de Sphinx
-      run: pip install sphinx==9.1.0 sphinx-intl sphinx-book-theme
+      run: pip install sphinx==9.1.0 sphinx-intl sphinx-book-theme==1.2.0
 
     - name: Compilation de la version française
       run: sphinx-build doc/fr doc/_build/fr

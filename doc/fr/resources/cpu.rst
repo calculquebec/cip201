@@ -137,7 +137,7 @@ parallèle :
     S_n = \frac{t_\text{séquentiel}}{t_n}
 
 Par exemple, si un calcul requiert 10 minutes avec 1 cœur CPU et 6 minutes avec
-2, l’accélaration est de 1,67. C’est donc une mesure de « combien de fois plus
+2, l’accélération est de 1,67. C’est donc une mesure de « combien de fois plus
 rapide est le programme ».
 
 L’efficacité (*efficiency*, :math:`E`) est le ratio de l’accélération sur le

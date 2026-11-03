@@ -29,8 +29,8 @@ Cette section discute du :doc:`temps <resources/time>` de calcul, de la
 <resources/cpu>`. Comment déterminer les quantités minimales nécessaires et les
 quantités optimales? Quel est l’impact des ressources demandées sur la priorité
 de vos tâches ? Que faire si les ressources disponibles ne semblent pas
-suffisantes ? Les ressources GPU sont couvertes dans un atelier séparé (à
-venir).
+suffisantes ? Les ressources GPU sont couvertes dans l’atelier `CIP203
+<https://github.com/calculquebec/cip203>`__.
 
 Le **suivi des tâches** permet de s’assurer qu’une tâche utilise correctement
 les ressources qui lui ont été allouées. Pour se faire, il est nécessaire de

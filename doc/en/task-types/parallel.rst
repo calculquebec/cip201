@@ -448,8 +448,8 @@ Data parallelism is repeating a serial or parallel job with different input
 data, such as images, molecules, or DNA sequences. While parallelism in a job
 aims to decrease that job’s computation time, data parallelism aims to increase
 computing throughput by running multiple jobs simultaneously. We cover this
-topic in details in another workshop, *Data parallelism on the clusters*
-(CIP202).
+topic in details in another workshop, `Managing large batches of jobs
+<https://calculquebec.github.io/cip202/en/index.html>`__ (CIP202).
 
 Graphical processing units (GPU) enable massively parallel computations. Since
 GPU computing is very different from the CPU-based computing presented here, it

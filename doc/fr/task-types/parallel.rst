@@ -469,8 +469,9 @@ parallèle avec différentes données d’entrées, par exemple des images, mol�
 ou séquences d’ADN. Alors que l’objectif du parallélisme dans une tâche est de
 réduire le temps de calcul nécessaire à cette tâche, le parallélisme de données
 vise à augmenter le débit de calcul en exécutant de multiples tâches
-simultanément. Nous convrirons ce sujet en détails dans l’atelier *Parallélisme
-de données sur les grappes* (CIP202).
+simultanément. Nous convrirons ce sujet en détails dans l’atelier `Gestion de
+grands lots de tâches <https://calculquebec.github.io/cip202/fr/index.html>`__
+(CIP202).
 
 Les processeurs graphiques (GPU) permettent des calculs massivement parallèles.
 Les calculs sur GPU étant très différents de ceux sur CPU présentés ici, ce

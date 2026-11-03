@@ -53,13 +53,13 @@ For instance:
 .. code-block:: console
     :emphasize-lines: 1,4
 
-    [alice@narval3 ~]$ sacct -j 39732872 -o JobID%15,JobName,Elapsed,TotalCPU,NCPUs
-              JobID    JobName    Elapsed   TotalCPU      NCPUS 
-    --------------- ---------- ---------- ---------- ---------- 
-           39732872     gmx-md   00:06:07  51:04.301         12 
-     39732872.batch      batch   00:06:07  00:01.043         12 
-    39732872.extern     extern   00:06:07  00:00.001         12 
-         39732872.0        gmx   00:06:05  51:03.255         12
+    [alice@narval3 ~]$ sacct -j 39732872 -o JobID%15,JobName,TotalCPU,Elapsed,NCPUs
+              JobID    JobName   TotalCPU    Elapsed      NCPUS
+    --------------- ---------- ---------- ---------- ----------
+           39732872     gmx-md  51:04.301   00:06:07         12
+     39732872.batch      batch  00:01.043   00:06:07         12
+    39732872.extern     extern  00:00.001   00:06:07         12
+         39732872.0        gmx  51:03.255   00:06:05         12
 
 .. note::
 
@@ -87,7 +87,7 @@ Exercise
 
 #. List your recent jobs with ``sacct -X``.
 #. Try ``seff <jobid>`` for one of these jobs and check its CPU usage.
-#. Try ``sacct -j <jobid> -o JobID,JobName,Elapsed,TotalCPU,NCPUs`` for the same
+#. Try ``sacct -j <jobid> -o JobID,JobName,TotalCPU,Elapsed,NCPUs`` for the same
    job. Compute CPU usage.
 
 Why optimise the number of CPU cores?

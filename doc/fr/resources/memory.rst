@@ -69,7 +69,7 @@ JobID,JobName,NTasks,AveRSS,MaxRSS``.
 - ``MaxRSS`` : le pic d’utilisation mémoire du processus qui en a utilisé
   le plus.
 
-.. figure:: ../../images/averss-vs-maxrss.svg
+.. figure:: ../../images/averss-vs-maxrss_fr.svg
 
 Pour les tâches séquentielles et multi-fils, ``AveRSS`` et ``MaxRSS`` sont
 identiques et correspondent au pic d’utilisation mémoire mesuré.

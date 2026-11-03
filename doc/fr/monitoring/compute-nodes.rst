@@ -9,7 +9,7 @@ cœur réservé, s'il y a trop de fils d'exécution ou bien s'il y a soudainemen
 une surutilisation de la mémoire qui n'est pas mesurée par Slurm.
 
 Comme on l'a déjà vu, c'est possible d'utiliser ``top`` et ``htop`` via des
-tâches interactives, mais **vous pouvez aussi vous connectez aux nœuds où vous
+tâches interactives, mais **vous pouvez aussi vous connecter aux nœuds où vous
 avez une tâche en cours**. Voici les étapes à suivre pour ce faire :
 
 #. S'assurer d'être connecté sur un nœud de connexion de la grappe de calcul.
